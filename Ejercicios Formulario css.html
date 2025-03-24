@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio con Div y CSS</title>
+    <style>
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        border: 1px solid #939696;
+        box-sizing: border-box;
+    }
+    .header{
+        background-color: rgba(209, 209, 92, 0.615);
+        padding: 20px;
+        border-style: dashed; border-color: rgb(82, 66, 42);
+    }
+    .header h1{
+        color: #000000;
+    }
+    .header img {
+        width: 100px;
+        height: 100px;
+        float: right;
+    }
+    .footer{
+        background-color: rgba(209, 209, 92, 0.615);
+        padding: 20px;
+        border-style: dashed; border-color: rgb(82, 66, 42);
+    }
+    .content {
+        display: flex;
+    }
+    .sidebar {
+        width: 20%;
+        background-color: #c29468;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .main {
+        width: 100%;
+        padding: 3rem;
+        box-sizing: border-box;
+    }
+    iframe {
+        width: 100%;
+        height: 500px;
+        border: none;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="img\ITH.png"> <h1>Mi pagina Web Ejercicios de Formulario</h1>
+        </div>
+        <div class="content">
+            <div class="sidebar">
+                <h2>Menú</h2>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <br>
+                    <li><a href="formulario 1 kennethjimenez.html" target="formularios">Ejercicio 1(23)</a></li>
+                    <br>
+                    <li><a href="formulario 2 kennethjimenez.html" target="formularios">Ejercicio 2(24)</a></li>
+                    <br>
+                    <li><a href="formulario 3 kennethjimenez.html" target="formularios">Ejercicio 3(25)</a></li>
+                    <br>
+                    <li><a href="formulario 4 kennethjimenez.html" target="formularios">Ejercicio 4(26)</a></li>
+                </ul>
+            </div>
+            <div class="main">
+                <h2>Ejercicio de Formularios</h2>
+                <p>Muy buenos Dias ,Tardes y Noches Profesora yadira,<br>Tambiem Bienvenid@s a todos los demas a mi página web.<br>Aquí encontrarás los ejercicios de formularios 1-4.</p>
+                <iframe name="formularios"></iframe>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Derechos reservados Kenneth Josue Jimenez Flores &copy; 2025</p>
+        </div>
+    </div>
+</body>
+</html>

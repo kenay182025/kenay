@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio con Div y CSS</title>
+    <style>
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        border: 1px solid #939696;
+    }
+    .header, .footer {
+        background-color: #4358c3f7;
+        padding: 20px;
+        text-align: center;
+    }
+    .header h1{
+        color: #ffffff;
+    }
+    .content {
+        display: flex;
+    }
+    .sidebar {
+        width: 25%;
+        background-color: #44a59f;
+        padding: 20px;
+    }
+    .main {
+        width: 60%;
+        padding: 20rem;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Mi Página Web</h1>
+        </div>
+        <div class="content">
+            <div class="sidebar">
+                <h2>Menú</h2>
+                <ul>
+                    <li>Inicio</li>
+                    <li>Acerca de</li>
+                    <li>Contacto</li>
+                </ul>
+            </div>
+            <div class="main">
+                <h2>Contenido Principal</h2>
+                <p>Bienvenido a mi página web. Aquí encontrarás información interesante.</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Derechos reservados Kenneth Josue Jimenez Flores &copy; 2025</p>
+        </div>
+    </div>
+</body>
+</html>
